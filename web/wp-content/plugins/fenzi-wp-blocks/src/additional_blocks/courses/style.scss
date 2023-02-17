@@ -1,0 +1,261 @@
+/**
+ * The following styles get applied both on the front of your site
+ * and in the editor.
+ *
+ * Replace them with your own styles or remove the file completely.
+ */
+
+
+.wp-block-hwd-fenzi-courses-container{
+}
+
+
+.wp-block-hwd-fenzi-courses-title{
+	margin:0!important;
+	color:$hwd-primary-color!important;
+	text-transform: uppercase;
+	font-family: KanitExtraBoldItalic;
+	padding:20px 160px;
+}
+.wp-block-hwd-fenzi-courses-title-filter{
+	margin:0!important;
+	color:white!important;
+	text-transform: uppercase;
+	font-family: KanitExtraBoldItalic;
+	padding:40px 0 20px 0;
+}
+
+.wp-block-hwd-fenzi-courses-items-container{
+	display:flex;
+	padding:0 160px;
+	flex-wrap: wrap;
+}
+
+.wp-block-hwd-fenzi-course-item-container{
+	width: 33%;
+	padding: 0 10px 20px;
+}
+
+.wp-block-hwd-fenzi-course-item{
+	width: 100%;
+	box-shadow: 1px 1px 4px 2px rgb(0 0 0 / 25%);
+	background: white;
+}
+
+.wp-block-hwd-fenzi-course-img{
+	background-size: cover;
+	background-position: center;
+	background-repeat: no-repeat;
+	width: 100%;
+	height: 200px;
+}
+
+.wp-block-hwd-fenzi-course-text-container{
+	padding:20px;
+}
+
+.wp-block-hwd-fenzi-course-number{
+	margin:0!important;
+	font-size: 1rem!important;
+	font-family: 'RobotoSlabBold', sans-serif;
+}
+.wp-block-hwd-fenzi-course-title{
+	margin:0!important;
+	font-size: 1.25rem!important;
+	font-family: 'RobotoSlabBold', sans-serif;
+}
+.wp-block-hwd-fenzi-course-author{
+	margin:0!important;
+}
+.wp-block-hwd-fenzi-course-author a{
+	margin:0!important;
+	color:$hwd-primary-color!important;
+	font-size: 1rem;
+	font-family: 'RobotoSlabBold', sans-serif;
+}
+.wp-block-hwd-fenzi-course-excerpt{
+	margin:0!important;
+	font-size: 0.9rem;
+}
+
+.wp-block-hwd-fenzi-course-bottom{
+	padding-left: 20px;
+	height: 40px;
+}
+
+.wp-block-hwd-fenzi-course-category-icon{
+	height: 20px!important;
+	filter: invert(35%) sepia(20%) saturate(2342%) hue-rotate(236deg) brightness(91%) contrast(90%);
+	margin-right: 5px;
+}
+.wp-block-hwd-fenzi-course-category{
+	color:$hwd-purple-color!important;
+	text-decoration: none !important;
+	font-family: 'RobotoSlabBold', sans-serif;
+}
+.wp-block-hwd-fenzi-course-category:hover{
+	color:$hwd-purple-color!important;
+	text-decoration: none !important;
+}
+.wp-block-hwd-fenzi-course-continue{
+	background:$hwd-primary-color;
+	color:white!important;
+	height: 40px;
+	width: 40px;
+	float: right;
+	line-height: 40px;
+	text-align: center;
+	font-size: 1.5rem;
+}
+
+.wp-block-hwd-fenzi-course-continue:hover{
+	color:white;
+}
+
+.wp-block-hwd-fenzi-courses-ctas{
+	text-align:center;
+	padding:40px 0;
+}
+
+.wp-block-hwd-fenzi-courses-cta-div{
+	display: inline-block;
+	margin-right: 10px;
+}
+
+.wp-block-hwd-fenzi-courses-cta{
+	border-radius:0;
+	outline: none;
+	text-decoration:none!important;
+	padding:10px 20px;
+	background: $hwd-primary-color;
+	color: $hwd-dark-color!important;
+	text-transform: uppercase;
+	font-family: KanitExtraBoldItalic;
+}
+.wp-block-hwd-fenzi-courses-cta:hover{
+	background: $hwd-primary-color-dark;
+	color: $hwd-dark-color!important;
+}
+.wp-block-hwd-fenzi-courses-cta i{
+	margin-left:5px;
+}
+
+
+.wp-block-hwd-fenzi-course-img-1 {
+	background-image: url(../../assets/img/FDSA_CourseOverview_Testimonials.jpg);
+}
+
+.wp-block-hwd-fenzi-course-filter-container{
+	padding: 0 160px;
+}
+.wp-block-hwd-fenzi-course-filter-dropdowns{
+	width: 100%;
+	display:flex;
+	margin: 60px 0px 40px 0;
+}
+
+.wp-block-hwd-fenzi-course-filter-dropdown{
+	width: 100%;
+	flex: 1;
+	padding:5px;
+}
+
+.wp-block-hwd-fenzi-course-filter-dropdown select{
+	width: 100%;
+	font-weight: bold;
+	border-radius: 0;
+}
+
+.wp-block-hwd-fenzi-course-filter-terms-container{
+	background: white;
+	padding: 10px 20px;
+	display: flex;
+}
+
+.wp-block-hwd-fenzi-course-filter-terms{
+	display: flex;
+	flex: 1;
+}
+
+.wp-block-hwd-fenzi-course-filter-term-title{
+	text-transform: uppercase;
+	font-weight: bold;
+}
+
+.wp-block-hwd-fenzi-course-filter-term{
+	flex: 1;
+	text-align: center;
+	cursor: pointer;
+	text-decoration: underline;
+	font-size: 0.9rem!important;
+}
+.wp-block-hwd-fenzi-course-filter-term:hover{
+	font-weight: bold;
+}
+
+.wp-block-hwd-fenzi-course-filter-info-container{
+	background: white;
+	padding: 15px 20px;
+}
+
+.wp-block-hwd-fenzi-course-filter-info-line{
+	font-size: 0.9rem!important;
+	margin:0!important;
+}
+
+.wp-block-hwd-fenzi-course-filter-info-line span{
+	text-transform: uppercase;
+	color: $hwd-primary-color!important;
+	font-weight: bold;
+	margin-right: 5px;
+}
+
+.wp-block-hwd-fenzi-course-filter-info-sub-line{
+	margin:0!important;
+	font-size: 0.8rem!important;
+}
+
+.wp-block-hwd-fenzi-course-filter-info-additional-line{
+	color:white;
+	font-size: 0.9rem!important;
+	margin:0!important;
+}
+
+
+@media (max-width: 992px) {
+
+	.wp-block-hwd-fenzi-courses-title{
+		padding:20px 10px;
+	}
+
+	.wp-block-hwd-fenzi-courses{
+		display:flex;
+		padding:0 10px;
+		flex-wrap: nowrap;
+		overflow-x: scroll;
+	}
+
+	.wp-block-hwd-fenzi-course-item-container{
+		width: 100vw;
+		min-width:300px;
+		padding: 0 10px 20px;
+	}
+
+	.wp-block-hwd-fenzi-courses-ctas {
+		padding: 20px 10px;
+	}
+
+	.wp-block-hwd-fenzi-courses-cta-div{
+		display: block;
+		margin-right: 0;
+		margin-bottom: 30px;
+		text-align: left;
+	}
+
+	.wp-block-hwd-fenzi-course-filter-container {
+		padding: 0 20px;
+	}
+	.wp-block-hwd-fenzi-courses-items-container{
+		padding: 0 20px;
+	}
+}

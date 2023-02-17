@@ -1,0 +1,24 @@
+{
+	"$schema": "https://schemas.wp.org/trunk/block.json",
+	"apiVersion": 2,
+	"name": "hwd-fenzi/subscribe",
+	"version": "0.1.0",
+	"title": "HWD Subscribe",
+	"category": "hwd",
+	"icon": "flag",
+	"description": "A widget to subscribe.",
+	"attributes": {
+		"title": {
+			"type": "string",
+			"default": "Sign up to get the latest"
+		},
+		"cta": {
+			"type": "string",
+			"default": "subscribe"
+		}
+	},
+	"supports": {
+		"html": false
+	},
+	"textdomain": "fenzi-wp-blocks"
+}

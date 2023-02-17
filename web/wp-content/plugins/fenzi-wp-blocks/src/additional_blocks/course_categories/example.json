@@ -1,0 +1,56 @@
+[
+	{
+		"title": "Agility",
+		"image_url": "FDSA_CourseOverview_Testimonials.jpg",
+		"slug": "/courses-agility",
+		"excerpt": "It’s hard to understate the popularity of this sport for both dogs and handlers!  Agility is all about the balance of drives and control, as each team moves as quickly as possible through a set of obstacles that includes things like jumps, tunnels and dog walks!"
+	},
+	{
+		"title": "Body, Health, & Fitness",
+		"image_url": "fdsa_test_img_001.jpg",
+		"slug": "/courses-body-health-fitness",
+		"excerpt": "If you want to keep your canine athlete in tip-top shape from puppyhood through the geriatric days, then this is the school for you!  Learn about physical conditioning, massage, and other techniques to keep your dog physically healthy and at the top of his game, both for dog sports and for life!"
+	},
+	{
+		"title": "Behavior",
+		"image_url": "fdsa_test_img_002.jpg",
+		"slug": "/courses/behavior",
+		"excerpt": "Understanding dog behavior is critical, for success in both canine sports as well as in day-to-day life!  If you’re struggling with any aspects of your dog’s behavior, from fears to phobias, or if you’re just fascinated by behavior or body language, start here!"
+	},
+	{
+		"title": "Electives",
+		"image_url": "fdsa_test_img_003.jpg",
+		"slug": "/courses-electives",
+		"excerpt": "And then there's … all the rest!  Some topics don’t seem to fit quite anywhere, so if you’re looking for something different – maybe photography, mental management, tricks, concept training and more – browse through our electives and see if we have just the class for you!"
+	},
+	{
+		"title": "Foundations",
+		"image_url": "FDSA_CourseOverview_Testimonials.jpg",
+		"slug": "/courses-foundations",
+		"excerpt": "Foundations are all of those basic skills, behaviors and attitudes that will set you and your dog up for a lifetime of success in both learning and competition.  This is a great place to start your training, regardless of your specific sports interest. "
+	},
+	{
+		"title": "Obedience",
+		"image_url": "fdsa_test_img_002.jpg",
+		"slug": "/courses-obedience",
+		"excerpt": "Our obedience program offers classes to help you teach and refine the specific skills required in a wide range of organizations, from AKC to TEAM.  Skills range from heeling to scent work to retrieve to hand signals to everything in between!"
+	},
+	{
+		"title": "Other Dog Sports",
+		"image_url": "fdsa_test_img_001.jpg",
+		"slug": "/courses-other-dog-sports",
+		"excerpt": "There are so many competitive dog training events that we have created a section just for them!  Here you’ll find working sports like herding and gun dog training as well as performance events like parkour, disc and other new sports – the list grows each day!"
+	},
+	{
+		"title": "Rally and Freestyle",
+		"image_url": "fdsa_test_img_003.jpg",
+		"slug": "/courses-rally-freestyle",
+		"excerpt": "These sports allow for a more relaxed and interactive approach to some of the precision skills traditionally associated with obedience, with freestyle adding whatever flair and fun tricks you might wish to add to spice up your performance!"
+	},
+	{
+		"title": "Scent Sports",
+		"image_url": "fdsa_test_img_001.jpg",
+		"slug": "/courses-scent-sports",
+		"excerpt": "Our school of scent sports covers both nosework and tracking.  Both sports allow you to develop teamwork with your dog based on one of his favorite activities – sniffing!  You’ll find these sports are well suited to dogs of all ages, breeds and temperaments."
+	}
+]

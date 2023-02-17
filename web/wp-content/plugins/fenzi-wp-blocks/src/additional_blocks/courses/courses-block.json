@@ -1,0 +1,32 @@
+{
+	"$schema": "https://schemas.wp.org/trunk/block.json",
+	"apiVersion": 2,
+	"name": "hwd-fenzi/courses",
+	"version": "0.1.0",
+	"title": "HWD Courses",
+	"category": "hwd",
+	"icon": "flag",
+	"description": "A widget to display courses.",
+	"attributes": {
+		"title": {
+			"type": "string",
+			"default": "Explore our current classes"
+		},
+		"numberOfPosts": {
+			"type": "number",
+			"default": 9
+		},
+		"showFilters": {
+			"type": "boolean",
+			"default": false
+		},
+		"categoryLimit": {
+			"type": "string",
+			"default": ""
+		}
+	},
+	"supports": {
+		"html": false
+	},
+	"textdomain": "fenzi-wp-blocks"
+}

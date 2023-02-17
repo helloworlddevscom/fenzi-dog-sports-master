@@ -1,0 +1,134 @@
+/**
+ * The following styles get applied both on the front of your site
+ * and in the editor.
+ *
+ * Replace them with your own styles or remove the file completely.
+ */
+
+.wp-block-hwd-fenzi-post-carousel-container{
+  padding: 80px 160px ;
+  background-color: #eee;
+  min-height: 200px;
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+}
+
+.wp-block-hwd-fenzi-post-carousel-title{
+  display: block;
+  width: 100%;
+  color:white!important;
+  text-transform: uppercase;
+  font-family: KanitExtraBoldItalic;
+}
+
+
+.wp-block-hwd-fenzi-post-carousel-slides {
+  display: flex;
+  overflow-x: auto;
+  scroll-snap-type: x mandatory;
+  scroll-behavior: smooth;
+  -webkit-overflow-scrolling: touch;
+  min-height: 200px;
+}
+.wp-block-hwd-fenzi-post-carousel-slides::-webkit-scrollbar {
+  width: 5px;
+  height: 5px;
+}
+.wp-block-hwd-fenzi-post-carousel-slides::-webkit-scrollbar-thumb {
+  background: white;
+}
+.wp-block-hwd-fenzi-post-carousel-slides::-webkit-scrollbar-track {
+  background: transparent;
+}
+
+.wp-block-hwd-fenzi-post-carousel-slide {
+  scroll-snap-align: start;
+  flex-shrink: 0;
+  width: 50%;
+  min-height: 300px;
+  margin-right: 50px;
+  transform-origin: center center;
+  transform: scale(1);
+  transition: transform 0.5s;
+  position: relative;
+
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 10px 0;
+}
+
+.wp-block-hwd-fenzi-post-carousel-slide-card{
+  padding: 30px;
+  background: white;
+  width: 100%;
+}
+
+.wp-block-hwd-fenzi-post-carousel-slide-content{
+  font-size: 1rem;
+}
+
+.wp-block-hwd-fenzi-post-carousel-slide-bottom{
+  display: flex;
+}
+.wp-block-hwd-fenzi-post-carousel-slide-img{
+  height:40px;
+  width:40px;
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  border-radius: 50%;
+}
+
+.wp-block-hwd-fenzi-post-carousel-slide-img-1{
+  background-image: url(../../assets/img/dog_cards/FDSA_Hero_PackageOptions_DogsOption1.png);
+}
+
+.wp-block-hwd-fenzi-post-carousel-slide-title{
+  font-size: 1rem!important;
+  height:40px!important;
+  line-height:40px!important;
+  margin-bottom:0!important;
+  margin-left:15px!important;
+  color: $hwd-dark-color;
+  text-transform: uppercase;
+  font-weight: bold;
+}
+
+
+.wp-block-hwd-fenzi-post-carousel-cta-div{
+  margin-top: 50px;
+}
+
+.wp-block-hwd-fenzi-post-carousel-cta{
+  border-radius:0;
+  outline: none;
+  text-decoration:none!important;
+  padding:10px 20px;
+  background: $hwd-primary-color;
+  color: $hwd-dark-color;
+  text-transform: uppercase;
+  font-family: KanitExtraBoldItalic;
+}
+
+.wp-block-hwd-fenzi-post-carousel-cta:hover{
+  background: $hwd-primary-color-dark;
+  color: $hwd-dark-color;
+}
+
+.wp-block-hwd-fenzi-post-carousel-cta i{
+  margin-left: 5px;
+}
+
+@media (max-width: 992px) {
+
+  .wp-block-hwd-fenzi-post-carousel-container{
+    padding: 40px 20px ;
+  }
+
+  .wp-block-hwd-fenzi-post-carousel-slide {
+    width: 100%;
+  }
+
+}

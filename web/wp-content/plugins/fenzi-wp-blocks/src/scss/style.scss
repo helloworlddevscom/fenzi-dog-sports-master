@@ -1,0 +1,220 @@
+/**
+ * The following styles get applied both on the front of your site
+ * and in the editor.
+ *
+ * Replace them with your own styles or remove the file completely.
+ */
+
+$hwd-primary-color: #00afaa;
+$hwd-primary-color-dark: #0f7774;
+$hwd-purple-color: #8347ad;
+$hwd-purple-color-dark: #562f71;
+$hwd-pink-color: #b11cab;
+$hwd-pink-color-dark: #761d72;
+$hwd-dark-color: #0f0e0f;
+$hwd-off-white-color: #e5e1e6;
+$hwd-top-nav-link-font-size: 0.85rem;
+$hwd-sub-nav-link-font-size: 0.95rem;
+$hwd-sub-nav-link-font-size-mobile: 1.35rem;
+$hwd-padding-x: 160px;
+$hwd-padding-y: 60px;
+
+@font-face {
+	font-family: Gilbert;
+	src: url(../../assets/gilbert-color.otf);
+	font-weight: 700;
+}
+
+@font-face {
+	font-family: KanitExtraBoldItalic;
+	src: url(../../assets/Kanit-ExtraBoldItalic.ttf);
+	font-weight: normal;
+}
+
+// style.scss
+@import './../main_block/primary_hero/style';
+@import './../additional_blocks/blog_posts/style';
+@import './../additional_blocks/blog_posts_search/style';
+@import './../additional_blocks/courses/style';
+@import './../additional_blocks/dog_cards/style';
+@import './../additional_blocks/recent_blog_posts/style';
+@import './../additional_blocks/simple_category_list/style';
+@import './../additional_blocks/subscribe/style';
+@import './../additional_blocks/post_carousel/style';
+@import './../additional_blocks/post_listview/style';
+@import './../additional_blocks/simple_cta_section/style';
+@import './../additional_blocks/text_list_cta_section/style';
+@import './../additional_blocks/course_categories/style';
+
+/** perhaps can remove !important after using scss */
+.ast-container {
+	max-width:none!important;
+	padding:0!important;
+}
+#primary {
+	max-width:none!important;
+	padding:0!important;
+	margin:0!important;
+}
+
+
+.wp-block-hwd-fenzi-full-width {
+	width:100%;
+	max-width: none!important;
+}
+
+.wp-block-hwd-fenzi-short-hero {
+	height: 300px;
+	padding: 100px 35% 60px 140px;
+	background-size: cover;
+	background-position: center;
+	background-repeat: no-repeat;
+	width:100%;
+	border: 0;
+	max-width: none!important;
+}
+
+.wp-block-hwd-fenzi-short-hero h2{
+	font-family: KanitExtraBoldItalic, sans-serif;
+	font-size: 45px;
+	color: white;
+	text-transform: uppercase;
+}
+
+.wp-block-hwd-fenzi-person-bio{
+	padding: $hwd-padding-y $hwd-padding-x;
+	display: flex;
+	max-width: none!important;
+}
+
+.wp-block-hwd-fenzi-person-bio .wp-block-hwd-fenzi-person-bio-img{
+	height: 350px;
+	width: 350px;
+	border-radius: 50%;
+	background-size: cover;
+	background-position: center;
+	background-repeat: no-repeat;
+	background-color:#ccc;
+}
+
+.wp-block-hwd-fenzi-person-bio .wp-block-hwd-fenzi-person-bio-text{
+	padding-left: 80px;
+	flex:1;
+}
+
+.wp-block-hwd-fenzi-person-bio .wp-block-hwd-fenzi-person-bio-text h3{
+	font-family: KanitExtraBoldItalic, sans-serif;
+	font-size: 35px;
+	color: $hwd-primary-color;
+	text-transform: uppercase;
+}
+.wp-block-hwd-fenzi-person-bio .wp-block-hwd-fenzi-person-bio-text p{
+	font-family: 'InterRegular', sans-serif;
+	font-size: 0.9rem;
+}
+
+.wp-block-hwd-fenzi-person-bio-inline .wp-block-hwd-fenzi-person-bio-inline-img{
+	height: 150px;
+	width: 150px;
+	border-radius: 50%;
+	background-size: cover;
+	background-position: center;
+	background-repeat: no-repeat;
+	background-color:#ccc;
+}
+
+.wp-block-hwd-fenzi-person-bio-inline .wp-block-hwd-fenzi-person-bio-inline-text{
+	padding-left: 80px;
+	flex:1;
+}
+
+.wp-block-hwd-fenzi-person-bio-inline .wp-block-hwd-fenzi-person-bio-inline-text h3{
+	font-family: KanitExtraBoldItalic, sans-serif;
+	font-size: 35px;
+	color: $hwd-primary-color;
+	text-transform: uppercase;
+}
+.wp-block-hwd-fenzi-person-bio-inline .wp-block-hwd-fenzi-person-bio-inline-text p{
+	font-family: 'InterRegular', sans-serif;
+	font-size: 0.9rem;
+}
+
+.wp-block-hwd-fenzi-color-container{
+	padding: $hwd-padding-y $hwd-padding-x;
+	color:white;
+}
+
+.hwd-loading-container{
+	width:100%;
+	padding:50px;
+	text-align: center;
+	display: none;
+}
+
+.hwd-half-circle-spinner {
+	width: 60px;
+	height: 60px;
+	border-radius: 100%;
+	position: relative;
+	margin: auto;
+}
+
+.hwd-half-circle-spinner .circle {
+	content: "";
+	position: absolute;
+	width: 100%;
+	height: 100%;
+	border-radius: 100%;
+	border: calc(60px / 10) solid transparent;
+}
+
+.hwd-half-circle-spinner .circle.circle-1 {
+	border-top-color: $hwd-primary-color;
+	animation: half-circle-spinner-animation 1s infinite;
+}
+
+.hwd-half-circle-spinner .circle.circle-2 {
+	border-bottom-color: $hwd-primary-color;
+	animation: half-circle-spinner-animation 1s infinite alternate;
+}
+
+@keyframes half-circle-spinner-animation {
+	0% {
+		transform: rotate(0deg);
+
+	}
+	100%{
+		transform: rotate(360deg);
+	}
+}
+
+
+@media (max-width: 992px) {
+
+	.wp-block-hwd-fenzi-short-hero {
+		padding: 60px 40px;
+		background-position: center right;
+	}
+
+	.wp-block-hwd-fenzi-short-hero h2{
+		font-size: 40px;
+	}
+
+
+	.wp-block-hwd-fenzi-person-bio{
+		padding: 60px 40px;
+		display: block;
+		max-width: none!important;
+	}
+
+	.wp-block-hwd-fenzi-person-bio .wp-block-hwd-fenzi-person-bio-img{
+		height: 250px;
+		width: 250px;
+		margin:auto;
+	}
+
+	.wp-block-hwd-fenzi-person-bio .wp-block-hwd-fenzi-person-bio-text{
+		padding-left: 0;
+		padding-top:40px;
+	}
+}

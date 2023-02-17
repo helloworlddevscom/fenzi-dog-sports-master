@@ -1,0 +1,80 @@
+/**
+ * The following styles get applied both on the front of your site
+ * and in the editor.
+ *
+ * Replace them with your own styles or remove the file completely.
+ */
+
+.wp-block-hwd-fenzi-simple-cta-section{
+	background: $hwd-dark-color;
+	padding: 80px 160px ;
+	display: flex;
+}
+
+.wp-block-hwd-fenzi-simple-cta-section-col{
+	flex:1;
+}
+
+.wp-block-hwd-fenzi-simple-cta-section-col-left{
+	padding-right: 20px;
+}
+
+
+.wp-block-hwd-fenzi-simple-cta-section-title{
+	color:$hwd-primary-color!important;
+	text-transform: uppercase;
+	font-family: KanitExtraBoldItalic;
+}
+
+.wp-block-hwd-fenzi-simple-cta-section-description{
+	color:white;
+}
+
+
+.wp-block-hwd-fenzi-simple-cta-section-img {
+	height: 300px;
+	background-size: cover;
+	background-position: center;
+	background-repeat: no-repeat;
+	width:100%;
+	background-color: #eee;
+}
+
+.wp-block-hwd-fenzi-simple-cta-section-cta-div{
+	margin-top: 50px;
+}
+
+.wp-block-hwd-fenzi-simple-cta-section-cta{
+	border-radius:0;
+	outline: none;
+	text-decoration:none!important;
+	padding:10px 20px;
+	background: $hwd-primary-color;
+	color: $hwd-dark-color;
+	text-transform: uppercase;
+	font-family: KanitExtraBoldItalic;
+}
+
+.wp-block-hwd-fenzi-simple-cta-section-cta:hover{
+	background: $hwd-primary-color-dark;
+	color: $hwd-dark-color;
+}
+
+.wp-block-hwd-fenzi-simple-cta-section-cta i{
+	margin-left: 5px;
+}
+@media (max-width: 992px) {
+
+	.wp-block-hwd-fenzi-simple-cta-section{
+		padding: 40px 20px ;
+		display: block;
+	}
+
+	.wp-block-hwd-fenzi-simple-cta-section-col{
+		width: 100%;
+	}
+
+	.wp-block-hwd-fenzi-simple-cta-section-col-left{
+		padding-right: 0;
+	}
+}

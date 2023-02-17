@@ -1,0 +1,101 @@
+/**
+ * The following styles get applied both on the front of your site
+ * and in the editor.
+ *
+ * Replace them with your own styles or remove the file completely.
+ */
+
+.wp-block-hwd-fenzi-course-categories-container{
+  padding: 80px 160px ;
+  min-height: 200px;
+}
+
+.wp-block-hwd-fenzi-course-categories-title{
+  display: block;
+  width: 100%;
+  color:$hwd-primary-color!important;
+  text-transform: uppercase;
+  font-family: KanitExtraBoldItalic;
+}
+
+
+.wp-block-hwd-fenzi-course-categories-item {
+  display: flex;
+  box-shadow: 1px 1px 4px 2px rgb(0 0 0 / 25%);
+  margin-bottom: 30px;
+  background:white;
+}
+
+.wp-block-hwd-fenzi-course-categories-img{
+  width: 225px;
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  height: 100%;
+  transition: all 1s ease;
+}
+.wp-block-hwd-fenzi-course-categories-img-link{
+  overflow: hidden;
+}
+.wp-block-hwd-fenzi-course-categories-img-link:hover .wp-block-hwd-fenzi-course-categories-img,
+.wp-block-hwd-fenzi-course-categories-img-link:focus .wp-block-hwd-fenzi-course-categories-img {
+  transform: scale(1.2);
+}
+
+.wp-block-hwd-fenzi-course-categories-img-1{
+  background-image: url(../../assets/img/dog_cards/FDSA_Hero_PackageOptions_DogsOption1.png);
+}
+
+.wp-block-hwd-fenzi-course-categories-text{
+  flex:1;
+}
+
+.wp-block-hwd-fenzi-course-categories-text-title{
+  font-family: 'RobotoSlabBold', sans-serif;
+  padding: 30px 20px 0;
+}
+
+
+.wp-block-hwd-fenzi-course-categories-text-p{
+  margin:0!important;
+  font-size: 0.9rem;
+  padding: 0 20px;
+}
+
+.wp-block-hwd-fenzi-course-categories-bottom{
+padding-left: 20px;
+height: 40px;
+}
+
+.wp-block-hwd-fenzi-course-categories-continue{
+background:$hwd-primary-color;
+color:white!important;
+height: 40px;
+width: 40px;
+float: right;
+line-height: 40px;
+text-align: center;
+font-size: 1.5rem;
+}
+
+.wp-block-hwd-fenzi-course-categories-continue:hover{
+color:white;
+}
+
+
+@media (max-width: 992px) {
+
+  .wp-block-hwd-fenzi-course-categories-container{
+  padding: 40px 20px ;
+  }
+
+  .wp-block-hwd-fenzi-course-categories-item {
+  display: block;
+  }
+
+  .wp-block-hwd-fenzi-course-categories-img{
+    width: 100%;
+    height: 225px;
+  }
+
+}

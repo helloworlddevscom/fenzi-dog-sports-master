@@ -1,0 +1,80 @@
+{
+	"$schema": "https://schemas.wp.org/trunk/block.json",
+	"apiVersion": 2,
+	"name": "hwd-fenzi/text-list-cta-section",
+	"version": "0.1.0",
+	"title": "HWD Text List CTA Section",
+	"category": "hwd",
+	"icon": "flag",
+	"description": "A widget to display a simple text list CTA.",
+	"attributes": {
+		"title": {
+			"type": "string",
+			"default": "My Header"
+		},
+		"description": {
+			"type": "string",
+			"default": "My description for this cta."
+		},
+		"ctaTitle": {
+			"type": "string",
+			"default": "Click Here"
+		},
+		"ctaLink": {
+			"type": "string",
+			"default": "/"
+		},
+		"title1": {
+			"type": "string",
+			"default": "Title 1"
+		},
+		"description1": {
+			"type": "string",
+			"default": "Description 1"
+		},
+		"title2": {
+			"type": "string",
+			"default": "Title 2"
+		},
+		"description2": {
+			"type": "string",
+			"default": "Description 2"
+		},
+		"title3": {
+			"type": "string",
+			"default": "Title 3"
+		},
+		"description3": {
+			"type": "string",
+			"default": "Description 3"
+		},
+		"title4": {
+			"type": "string",
+			"default": "Title 4"
+		},
+		"description4": {
+			"type": "string",
+			"default": "Description 4"
+		},
+		"title5": {
+			"type": "string",
+			"default": "Title 5"
+		},
+		"description5": {
+			"type": "string",
+			"default": "Description 5"
+		},
+		"title6": {
+			"type": "string",
+			"default": "Title 6"
+		},
+		"description6": {
+			"type": "string",
+			"default": "Description 6"
+		}
+	},
+	"supports": {
+		"html": false
+	},
+	"textdomain": "fenzi-wp-blocks"
+}

@@ -1,0 +1,62 @@
+/**
+ * The following styles get applied both on the front of your site
+ * and in the editor.
+ *
+ * Replace them with your own styles or remove the file completely.
+ */
+
+.wp-block-hwd-fenzi-post-listview-container{
+  padding: 80px 160px ;
+  background-color: white;
+  min-height: 200px;
+}
+
+.wp-block-hwd-fenzi-post-listview-title{
+  display: block;
+  width: 100%;
+  color:$hwd-primary-color!important;
+  text-transform: uppercase;
+  font-family: KanitExtraBoldItalic;
+}
+
+
+.wp-block-hwd-fenzi-post-listview-item {
+  display: flex;
+}
+
+.wp-block-hwd-fenzi-post-listview-img{
+  height: 160px;
+  margin: 0 30px 30px 0;
+  width: 160px;
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  border-radius: 50%;
+}
+
+.wp-block-hwd-fenzi-post-listview-img-1{
+  background-image: url(../../assets/img/dog_cards/FDSA_Hero_PackageOptions_DogsOption1.png);
+}
+
+.wp-block-hwd-fenzi-post-listview-text{
+  flex:1;
+}
+
+.wp-block-hwd-fenzi-post-listview-text-title{
+  font-family: KanitExtraBoldItalic;
+}
+
+
+.wp-block-hwd-fenzi-post-listview-text-p{
+}
+
+
+@media (max-width: 992px) {
+
+  .wp-block-hwd-fenzi-post-listview-container{
+    padding: 40px 20px ;
+  }
+
+
+
+}

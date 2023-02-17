@@ -1,0 +1,36 @@
+/**
+ * The following styles get applied both on the front of your site
+ * and in the editor.
+ *
+ * Replace them with your own styles or remove the file completely.
+ */
+
+
+.wp-block-hwd-fenzi-recent-blog-posts{
+	background: white;
+	padding: 15px;
+}
+
+.wp-block-hwd-fenzi-recent-blog-posts-title{
+	font-family: KanitExtraBoldItalic, sans-serif;
+	font-size: 25px;
+	color: $hwd-primary-color;
+	text-transform: uppercase;
+}
+
+.wp-block-hwd-fenzi-recent-blog-posts-item {
+	border-top: 1px solid #e1e1e1;
+	margin-top: 10px;
+	padding-top: 10px;
+}
+
+.wp-block-hwd-fenzi-recent-blog-posts-item a{
+	font-family: InterBold, sans-serif;
+	font-size: 14px;
+	color: $hwd-dark-color;
+}
+
+
+@media (max-width: 992px) {
+
+}

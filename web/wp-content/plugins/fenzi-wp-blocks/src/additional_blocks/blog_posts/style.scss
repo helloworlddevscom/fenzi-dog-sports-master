@@ -1,0 +1,74 @@
+/**
+ * The following styles get applied both on the front of your site
+ * and in the editor.
+ *
+ * Replace them with your own styles or remove the file completely.
+ */
+
+.wp-block-hwd-fenzi-blog-post-item{
+	border-bottom: 1px solid #e1e1e1;
+	margin-bottom: 20px;
+	padding-bottom: 40px;
+}
+
+.wp-block-hwd-fenzi-blog-post-item-header{
+	display: flex;
+	width: 100%;
+	margin-bottom: 15px;
+}
+
+.wp-block-hwd-fenzi-blog-post-item-header-img img{
+	height: 60px;
+	width: 60px;
+}
+
+.wp-block-hwd-fenzi-blog-post-item-header-text{
+	flex: 1;
+	padding-left: 15px;
+}
+
+.wp-block-hwd-fenzi-blog-post-item-title{
+	font-family: KanitExtraBoldItalic, sans-serif;
+	font-size: 25px!important;
+	color: $hwd-primary-color!important;
+	margin: 0!important;
+	width: 100%;
+}
+
+.wp-block-hwd-fenzi-blog-post-item-description-text{
+	display: inline-block;
+	color:gray;
+	margin-right: 10px;
+	font-size: 0.9em;
+}
+
+
+.wp-block-hwd-fenzi-blog-post-item-description-text a{
+	color:gray;
+}
+
+.wp-block-hwd-fenzi-blog-post-item-excerpt{
+	margin:0;
+}
+
+.wp-block-hwd-fenzi-blog-post-item-read-more{
+	font-family: KanitExtraBoldItalic, sans-serif;
+	padding: 10px 20px;
+	background: $hwd-purple-color;
+	color: white;
+	border: none;
+	text-decoration: none!important;
+}
+
+.wp-block-hwd-fenzi-blog-post-item-read-more:hover{
+	color: white;
+	background: $hwd-purple-color-dark;
+}
+
+.wp-block-hwd-fenzi-blog-post-item-hits{
+	padding-top: 20px;
+}
+
+@media (max-width: 992px) {
+
+}

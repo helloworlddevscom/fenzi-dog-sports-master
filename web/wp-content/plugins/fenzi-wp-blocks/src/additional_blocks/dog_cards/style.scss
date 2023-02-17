@@ -1,0 +1,108 @@
+/**
+ * The following styles get applied both on the front of your site
+ * and in the editor.
+ *
+ * Replace them with your own styles or remove the file completely.
+ */
+
+$hwd-dog-card-height: 200px;
+
+.wp-block-hwd-fenzi-dog-cards{
+  margin-top:-$hwd-dog-card-height;
+  display:flex;
+  background: transparent;
+  width: 90%;
+  max-width: none!important;
+}
+
+.wp-block-hwd-fenzi-dog-cards-item-container{
+  width:25%;
+  padding:0 8px;
+}
+
+.wp-block-hwd-fenzi-dog-cards-item{
+  border-top: 6px solid $hwd-purple-color;
+  width:100%;
+  height:$hwd-dog-card-height;
+  position: relative;
+  background: white;
+}
+
+.wp-block-hwd-fenzi-dog-cards-img{
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  height: $hwd-dog-card-height*0.75;
+  width: 100%;
+  background-size: contain;
+  background-position: bottom center;
+  background-repeat: no-repeat;
+}
+
+.wp-block-hwd-fenzi-dog-cards-img-1{
+  background-image: url(../../assets/img/dog_cards/FDSA_Hero_PackageOptions_DogsOption1.png);
+}
+
+.wp-block-hwd-fenzi-dog-cards-img-2{
+  background-image: url(../../assets/img/dog_cards/FDSA_Hero_PackageOptions_DogsOption2.png);
+}
+
+.wp-block-hwd-fenzi-dog-cards-img-3{
+  background-image: url(../../assets/img/dog_cards/FDSA_Hero_PackageOptions_DogsOption3.png);
+}
+
+.wp-block-hwd-fenzi-dog-cards-img-4{
+  background-image: url(../../assets/img/dog_cards/FDSA_Hero_PackageOptions_DogsOption4.png);
+}
+
+.wp-block-hwd-fenzi-dog-cards-title{
+  padding: 0 20px;
+  width:100%;
+  text-align:center;
+  font-size: 1.25rem!important;
+  font-family: 'RobotoSlabBold', sans-serif;
+  position: absolute;
+  top: $hwd-dog-card-height*0.075;
+  left: 0;
+  margin:0!important;
+}
+
+.wp-block-hwd-fenzi-dog-cards-bottom{
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  width:100%;
+}
+
+.wp-block-hwd-fenzi-dog-cards-continue{
+  background:$hwd-purple-color;
+  color:white!important;
+  height: 40px;
+  width: 40px;
+  float: right;
+  line-height: 40px;
+  text-align: center;
+  font-size: 1.5rem;
+}
+
+.wp-block-hwd-fenzi-dog-cards-continue:hover{
+  color:white!important;
+}
+
+@media (max-width: 992px) {
+
+  .wp-block-hwd-fenzi-dog-cards{
+    margin-top:0;
+    display:block;
+    background: $hwd-dark-color;
+    padding-top: 20px;
+    width: 100%;
+    max-width: none!important;
+  }
+
+
+  .wp-block-hwd-fenzi-dog-cards-item-container{
+    width:100%;
+    padding: 0 40px 20px;
+  }
+}

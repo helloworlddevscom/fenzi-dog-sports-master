@@ -1,0 +1,24 @@
+{
+	"$schema": "https://schemas.wp.org/trunk/block.json",
+	"apiVersion": 2,
+	"name": "hwd-fenzi/simple-category-list",
+	"version": "0.1.0",
+	"title": "HWD Simple Category List",
+	"category": "hwd",
+	"icon": "flag",
+	"description": "A simple list showing titles and links to categories.",
+	"attributes": {
+		"title": {
+			"type": "string",
+			"default": "Categories"
+		},
+		"numberOfPosts": {
+			"type": "number",
+			"default": 25
+		}
+	},
+	"supports": {
+		"html": false
+	},
+	"textdomain": "fenzi-wp-blocks"
+}

@@ -1,0 +1,31 @@
+{
+	"$schema": "https://schemas.wp.org/trunk/block.json",
+	"apiVersion": 2,
+	"name": "hwd-fenzi/primary-hero",
+	"version": "0.1.0",
+	"title": "HWD Primary Hero",
+	"category": "text",
+	"icon": "flag",
+	"description": "A widget to display a hero image and title.",
+	"attributes": {
+		"mediaId": {
+			"type": "number",
+			"default": 0
+		},
+		"mediaUrl": {
+			"type": "string",
+			"default": ""
+		},
+		"title": {
+			"type": "string",
+			"default": "Primary Hero"
+		}
+	},
+	"supports": {
+		"html": false
+	},
+	"textdomain": "fenzi-wp-blocks",
+	"editorScript": "file:../../../build/index.js",
+	"editorStyle": "file:../../../build/index.css",
+	"style": "file:../../../build/style-index.css"
+}

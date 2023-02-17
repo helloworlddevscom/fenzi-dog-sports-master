@@ -1,0 +1,15 @@
+{
+	"$schema": "https://schemas.wp.org/trunk/block.json",
+	"apiVersion": 2,
+	"name": "hwd-fenzi/blog-posts-search",
+	"version": "0.1.0",
+	"title": "HWD Blog Posts Search",
+	"category": "hwd",
+	"icon": "flag",
+	"description": "A widget to search blog posts.",
+	"attributes": {},
+	"supports": {
+		"html": false
+	},
+	"textdomain": "fenzi-wp-blocks"
+}

@@ -1,0 +1,16 @@
+/**
+ * The following styles get applied inside the editor only.
+ *
+ * Replace them with your own styles or remove the file completely.
+ */
+
+
+.wp-block-hwd-fenzi-courses-items-container{
+  display:flex;
+  padding:0 80px;
+  flex-wrap: wrap;
+}
+.wp-block-hwd-fenzi-course-item-container{
+  width: 30%;
+  padding: 0 10px 20px;
+}

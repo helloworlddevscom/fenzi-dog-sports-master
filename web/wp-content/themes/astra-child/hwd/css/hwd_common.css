@@ -1,0 +1,126 @@
+:root {
+    --hwd-primary-color: #00afaa;
+    --hwd-primary-color-dark: #0f7774;
+    --hwd-purple-color: #8347ad;
+    --hwd-dark-color: #0f0e0f;
+    --hwd-off-white-color: #e5e1e6;
+    --hwd-top-nav-link-font-size: 0.85rem;
+    --hwd-sub-nav-link-font-size: 0.95rem;
+    --hwd-sub-nav-link-font-size-mobile: 1.35rem;
+    --hwd-btn: 0.95rem;
+}
+
+@font-face {
+    font-family: InterRegular;
+    src: url(/wp-content/themes/astra-child/assets/fonts/Inter/static/Inter-Regular.ttf);
+    font-weight: normal;
+}
+
+@font-face {
+    font-family: InterMedium;
+    src: url(/wp-content/themes/astra-child/assets/fonts/Inter/static/Inter-Medium.ttf);
+    font-weight: normal;
+}
+
+@font-face {
+    font-family: InterBold;
+    src: url(/wp-content/themes/astra-child/assets/fonts/Inter/static/Inter-Bold.ttf);
+    font-weight: normal;
+}
+
+@font-face {
+    font-family: RobotoSlabBold;
+    src: url(/wp-content/themes/astra-child/assets/fonts/Roboto_Slab/static/RobotoSlab-Bold.ttf);
+    font-weight: normal;
+}
+
+@font-face {
+    font-family: RobotoSlabExtraBold;
+    src: url(/wp-content/themes/astra-child/assets/fonts/Roboto_Slab/static/RobotoSlab-ExtraBold.ttf);
+    font-weight: normal;
+}
+
+body{
+    font-family: 'InterRegular', sans-serif;
+}
+
+.font-roboto-slab-bold{
+    font-family: 'RobotoSlabBold', sans-serif;
+}
+
+.font-roboto-slab-extra-bold{
+    font-family: 'RobotoSlabExtraBold', sans-serif;
+}
+
+.hwd-w-100{
+    width:100%;
+}
+
+.hwd-menu-container{
+    padding: 0 100px;
+}
+
+.hwd-btn{
+    border-radius:0;
+    height: 40px;
+    line-height: 40px;
+    padding:0 20px;
+}
+
+.hwd-btn-white{
+    background: white;
+    color: var(--hwd-dark-color);
+    text-transform: uppercase;
+    font-weight: bold;
+}
+.hwd-btn-white:hover{
+    background: var(--hwd-off-white-color);
+    color: var(--hwd-dark-color);
+}
+
+/** perhaps can remove !important after using scss */
+.hwd-translucent-input{
+    background: rgba(255,255,255,0.1)!important;
+    color:white!important;
+    border-radius:0!important;
+    border:none!important;
+    outline:none!important;
+}
+
+.hwd-translucent-input::placeholder { /* Chrome, Firefox, Opera, Safari 10.1+ */
+    color: white;
+    opacity: 1; /* Firefox */
+}
+
+.hwd-translucent-input:-ms-input-placeholder { /* Internet Explorer 10-11 */
+    color: white;
+}
+
+.hwd-translucent-input::-ms-input-placeholder { /* Microsoft Edge */
+    color: white;
+}
+
+/** perhaps can remove !important after using scss */
+.hwd-display-none{
+    display:none!important;
+}
+
+@media (max-width: 1200px) {
+
+    .hwd-menu-container{
+        padding: 0 20px;
+    }
+
+}
+
+
+@media (max-width: 992px) {
+
+    .hwd-w-100-mobile{
+        width:100%
+    }
+
+    .hwd-hide-mobile{
+        display:none;
+    }
+}

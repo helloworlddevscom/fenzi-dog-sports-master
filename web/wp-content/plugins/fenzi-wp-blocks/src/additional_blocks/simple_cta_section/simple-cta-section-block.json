@@ -1,0 +1,40 @@
+{
+	"$schema": "https://schemas.wp.org/trunk/block.json",
+	"apiVersion": 2,
+	"name": "hwd-fenzi/simple-cta-section",
+	"version": "0.1.0",
+	"title": "HWD Simple CTA Section",
+	"category": "hwd",
+	"icon": "flag",
+	"description": "A widget to display a simple CTA.",
+	"attributes": {
+		"mediaId": {
+			"type": "number",
+			"default": 0
+		},
+		"mediaUrl": {
+			"type": "string",
+			"default": ""
+		},
+		"title": {
+			"type": "string",
+			"default": "My Header"
+		},
+		"description": {
+			"type": "string",
+			"default": "My description for this cta."
+		},
+		"ctaTitle": {
+			"type": "string",
+			"default": "Click Here"
+		},
+		"ctaLink": {
+			"type": "string",
+			"default": "/"
+		}
+	},
+	"supports": {
+		"html": false
+	},
+	"textdomain": "fenzi-wp-blocks"
+}

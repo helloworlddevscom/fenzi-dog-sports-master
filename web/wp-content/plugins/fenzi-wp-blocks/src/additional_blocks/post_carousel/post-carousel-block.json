@@ -1,0 +1,44 @@
+{
+	"$schema": "https://schemas.wp.org/trunk/block.json",
+	"apiVersion": 2,
+	"name": "hwd-fenzi/post-carousel",
+	"version": "0.1.0",
+	"title": "HWD Post Carousel",
+	"category": "hwd",
+	"icon": "flag",
+	"description": "A widget to display posts as a carousel.",
+	"attributes": {
+		"mediaId": {
+			"type": "number",
+			"default": 0
+		},
+		"mediaUrl": {
+			"type": "string",
+			"default": ""
+		},
+		"postType": {
+			"type": "string",
+			"default": "post"
+		},
+		"title": {
+			"type": "string",
+			"default": "Here are some testimonials"
+		},
+		"ctaTitle": {
+			"type": "string",
+			"default": "View All Testimonials"
+		},
+		"ctaLink": {
+			"type": "string",
+			"default": "/testimonials"
+		},
+		"numberOfPosts": {
+			"type": "number",
+			"default": 9
+		}
+	},
+	"supports": {
+		"html": false
+	},
+	"textdomain": "fenzi-wp-blocks"
+}

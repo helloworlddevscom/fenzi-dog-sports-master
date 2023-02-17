@@ -1,0 +1,4 @@
+{
+  "plugins": [ "./web/wp-content/plugins/fenzi-hwd-store" ],
+  "themes": [ "./web/wp-content/themes/astra-child"]
+}

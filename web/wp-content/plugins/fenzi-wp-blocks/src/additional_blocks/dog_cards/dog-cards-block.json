@@ -1,0 +1,48 @@
+{
+	"$schema": "https://schemas.wp.org/trunk/block.json",
+	"apiVersion": 2,
+	"name": "hwd-fenzi/dog-cards",
+	"version": "0.1.0",
+	"title": "HWD Dog Cards",
+	"category": "hwd",
+	"icon": "flag",
+	"description": "A widget of 4 cards with images of dogs.",
+	"attributes": {
+		"title_a": {
+			"type": "string",
+			"default": "Title A"
+		},
+		"link_a": {
+			"type": "string",
+			"default": "/"
+		},
+		"title_b": {
+			"type": "string",
+			"default": "Title B"
+		},
+		"link_b": {
+			"type": "string",
+			"default": "/"
+		},
+		"title_c": {
+			"type": "string",
+			"default": "Title C"
+		},
+		"link_c": {
+			"type": "string",
+			"default": "/"
+		},
+		"title_d": {
+			"type": "string",
+			"default": "Title D"
+		},
+		"link_d": {
+			"type": "string",
+			"default": "/"
+		}
+	},
+	"supports": {
+		"html": false
+	},
+	"textdomain": "fenzi-wp-blocks"
+}

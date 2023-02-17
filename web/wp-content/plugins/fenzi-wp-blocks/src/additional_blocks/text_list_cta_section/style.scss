@@ -1,0 +1,107 @@
+/**
+ * The following styles get applied both on the front of your site
+ * and in the editor.
+ *
+ * Replace them with your own styles or remove the file completely.
+ */
+
+.wp-block-hwd-fenzi-test-list-cta-section{
+	background: $hwd-dark-color;
+	padding: 80px 160px ;
+}
+.wp-block-hwd-fenzi-test-list-cta-row{
+	display: flex;
+}
+
+.wp-block-hwd-fenzi-test-list-cta-section-col{
+	flex:1;
+	padding-right: 20px;
+}
+
+.wp-block-hwd-fenzi-test-list-cta-section-title{
+	color:$hwd-primary-color!important;
+	text-transform: uppercase;
+	font-family: KanitExtraBoldItalic;
+}
+
+.wp-block-hwd-fenzi-text-list-cta-section-item{
+	display: flex;
+}
+.wp-block-hwd-fenzi-text-list-cta-section-item-text{
+	padding-left: 30px;
+}
+.wp-block-hwd-fenzi-text-list-cta-section-item-title{
+	font-family: 'RobotoSlabBold', sans-serif;
+	color:white!important;
+	margin:0!important;
+}
+.wp-block-hwd-fenzi-text-list-cta-section-item-description{
+	color:white;
+}
+
+
+.wp-block-hwd-fenzi-text-list-cta-section-item-img {
+	height: 50px;
+	width: 50px;
+	background-size: cover;
+	background-position: center;
+	background-repeat: no-repeat;
+}
+
+
+.wp-block-hwd-fenzi-text-list-cta-section-item-img-1 {
+	background-image: url(../../assets/img/why_icons/FDSA_icon_Why_ExcellentValue.svg);
+}
+.wp-block-hwd-fenzi-text-list-cta-section-item-img-2 {
+	background-image: url(../../assets/img/why_icons/FDSA_icon_Why_Learning.svg);
+}
+.wp-block-hwd-fenzi-text-list-cta-section-item-img-3 {
+	background-image: url(../../assets/img/why_icons/FDSA_icon_Why_Community.svg);
+}
+.wp-block-hwd-fenzi-text-list-cta-section-item-img-4 {
+	background-image: url(../../assets/img/why_icons/FDSA_icon_Why_WorldClass.svg);
+}
+.wp-block-hwd-fenzi-text-list-cta-section-item-img-5 {
+	background-image: url(../../assets/img/why_icons/FDSA_icon_Why_EssentialSkills.svg);
+}
+.wp-block-hwd-fenzi-text-list-cta-section-item-img-6 {
+	background-image: url(../../assets/img/why_icons/FDSA_icon_Why_Convenient.svg);
+}
+
+.wp-block-hwd-fenzi-test-list-cta-section-cta-div{
+	margin-top: 50px;
+}
+
+.wp-block-hwd-fenzi-test-list-cta-section-cta{
+	border-radius:0;
+	outline: none;
+	text-decoration:none!important;
+	padding:10px 20px;
+	background: $hwd-primary-color;
+	color: $hwd-dark-color;
+	text-transform: uppercase;
+	font-family: KanitExtraBoldItalic;
+}
+
+.wp-block-hwd-fenzi-test-list-cta-section-cta:hover{
+	background: $hwd-primary-color-dark;
+	color: $hwd-dark-color;
+}
+
+.wp-block-hwd-fenzi-test-list-cta-section-cta i{
+	margin-left: 5px;
+}
+
+@media (max-width: 992px) {
+
+	.wp-block-hwd-fenzi-test-list-cta-section{
+		padding: 40px 20px ;
+		display: block;
+	}
+
+	.wp-block-hwd-fenzi-test-list-cta-section-col{
+		width: 100%;
+		padding-right: 0;
+	}
+
+}

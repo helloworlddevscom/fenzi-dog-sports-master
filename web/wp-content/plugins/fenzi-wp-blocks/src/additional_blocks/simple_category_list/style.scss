@@ -1,0 +1,38 @@
+/**
+ * The following styles get applied both on the front of your site
+ * and in the editor.
+ *
+ * Replace them with your own styles or remove the file completely.
+ */
+
+
+.wp-block-hwd-fenzi-simple-category-list{
+	background: white;
+	padding: 15px;
+}
+
+.wp-block-hwd-fenzi-simple-category-list-title{
+	font-family: KanitExtraBoldItalic, sans-serif;
+	font-size: 25px;
+	color: $hwd-primary-color;
+	text-transform: uppercase;
+}
+
+.wp-block-hwd-fenzi-simple-category-list-item {
+	border-top: 1px solid #e1e1e1;
+	margin-top: 10px;
+	padding-top: 10px;
+}
+
+.wp-block-hwd-fenzi-simple-category-list-item a{
+	font-family: InterBold, sans-serif;
+	font-size: 14px;
+	color: $hwd-dark-color;
+}
+.wp-block-hwd-fenzi-simple-category-list-item i{
+	margin-right: 8px;
+}
+
+@media (max-width: 992px) {
+
+}

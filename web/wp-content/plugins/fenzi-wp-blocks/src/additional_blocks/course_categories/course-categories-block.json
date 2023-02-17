@@ -1,0 +1,36 @@
+{
+	"$schema": "https://schemas.wp.org/trunk/block.json",
+	"apiVersion": 2,
+	"name": "hwd-fenzi/course-categories",
+	"version": "0.1.0",
+	"title": "HWD Course Categories",
+	"category": "hwd",
+	"icon": "flag",
+	"description": "A widget to display course categories as a listview.",
+	"attributes": {
+		"mediaId": {
+			"type": "number",
+			"default": 0
+		},
+		"mediaUrl": {
+			"type": "string",
+			"default": ""
+		},
+		"postType": {
+			"type": "string",
+			"default": "post"
+		},
+		"title": {
+			"type": "string",
+			"default": "Here are some items"
+		},
+		"numberOfPosts": {
+			"type": "number",
+			"default": 9
+		}
+	},
+	"supports": {
+		"html": false
+	},
+	"textdomain": "fenzi-wp-blocks"
+}

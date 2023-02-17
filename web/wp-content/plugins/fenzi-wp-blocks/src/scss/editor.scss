@@ -1,0 +1,53 @@
+/**
+ * The following styles get applied inside the editor only.
+ *
+ * Replace them with your own styles or remove the file completely.
+ */
+
+$hwd-primary-color: #00afaa;
+$hwd-primary-color-dark: #0f7774;
+$hwd-purple-color: #8347ad;
+$hwd-dark-color: #0f0e0f;
+$hwd-off-white-color: #e5e1e6;
+$hwd-top-nav-link-font-size: 0.85rem;
+
+@import './../main_block/primary_hero/editor';
+@import './../additional_blocks/courses/editor';
+
+.wp-block-hwd-fenzi-short-hero {
+	padding: 100px 0 60px 140px;
+}
+
+.wp-block-hwd-fenzi-short-hero textarea {
+	font-family: KanitExtraBoldItalic, sans-serif;
+	font-size: 40px;
+	color: white;
+	background: inherit;
+	border: 0;
+	width:50%;
+}
+
+
+
+.wp-block-hwd-fenzi-person-bio .wp-block-hwd-fenzi-person-bio-text input[type="text"] {
+	font-family: KanitExtraBoldItalic, sans-serif;
+	color: $hwd-primary-color;
+}
+.wp-block-hwd-fenzi-person-bio .wp-block-hwd-fenzi-person-bio-text textarea {
+	font-family: 'InterRegular', sans-serif;
+	min-height: 250px;
+}
+
+.wp-block-hwd-fenzi-w-100{
+	width:100%;
+}
+
+.wp-block-hwd-fenzi-recent-blog-posts input[type="text"] {
+	font-family: KanitExtraBoldItalic, sans-serif;
+	color: $hwd-primary-color;
+}
+
+.wp-block-hwd-fenzi-simple-category-list input[type="text"] {
+	font-family: KanitExtraBoldItalic, sans-serif;
+	color: $hwd-primary-color;
+}

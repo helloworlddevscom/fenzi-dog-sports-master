@@ -1,0 +1,57 @@
+[
+	{
+		"id": "1",
+		"title": "April 1, 2022",
+		"class_start_date": "April 1, 2022",
+		"class_end_date": "May 12, 2022",
+		"class_length": "6 Weeks",
+		"enrollment_start_date": "March 22, 2022",
+		"enrollment_end_date": "April 15, 2022",
+		"tuition": "$65 -$240",
+		"new_student_message": "Your account will be created automatically when you enroll in your first class."
+	},
+	{
+		"id": "2",
+		"title": "June 1, 2022",
+		"class_start_date": "June 1, 2022",
+		"class_end_date": "July 12, 2022",
+		"class_length": "6 Weeks",
+		"enrollment_start_date": "May 22, 2022",
+		"enrollment_end_date": "June 15, 2022",
+		"tuition": "$16 -$140",
+		"new_student_message": "Your account will be created automatically when you enroll in your first class."
+	},
+	{
+		"id": "3",
+		"title": "August 1, 2022",
+		"class_start_date": "August 1, 2022",
+		"class_end_date": "September 12, 2022",
+		"class_length": "6 Weeks",
+		"enrollment_start_date": "July 22, 2022",
+		"enrollment_end_date": "August 15, 2022",
+		"tuition": "$13 -$140",
+		"new_student_message": "Your account will be created automatically when you enroll in your first class."
+	},
+	{
+		"id": "4",
+		"title": "October 1, 2022",
+		"class_start_date": "October 1, 2022",
+		"class_end_date": "November 12, 2022",
+		"class_length": "6 Weeks",
+		"enrollment_start_date": "September 22, 2022",
+		"enrollment_end_date": "October 15, 2022",
+		"tuition": "$24 -$244",
+		"new_student_message": "Your account will be created automatically when you enroll in your first class."
+	},
+	{
+		"id": "5",
+		"title": "December 1, 2022",
+		"class_start_date": "December 1, 2022",
+		"class_end_date": "January 12, 2022",
+		"class_length": "6 Weeks",
+		"enrollment_start_date": "November 22, 2022",
+		"enrollment_end_date": "December 15, 2022",
+		"tuition": "$60 -$245",
+		"new_student_message": "Your account will be created automatically when you enroll in your first class."
+	}
+]

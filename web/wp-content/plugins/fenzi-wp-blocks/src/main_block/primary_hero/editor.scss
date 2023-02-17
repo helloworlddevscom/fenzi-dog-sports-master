@@ -1,0 +1,24 @@
+/**
+ * The following styles get applied inside the editor only.
+ *
+ * Replace them with your own styles or remove the file completely.
+ */
+
+
+.wp-block-hwd-fenzi-primary-hero {
+	padding: 0;
+	background-color:#eee;
+}
+
+.wp-block-hwd-fenzi-primary-hero textarea {
+	font-family: KanitExtraBoldItalic, sans-serif;
+	font-size: 40px;
+	color: white;
+	background: inherit;
+	border: 0;
+}
+
+.wp-block-hwd-fenzi-primary-hero-textarea-container{
+	width: 50%;
+	padding: 60px;
+}
